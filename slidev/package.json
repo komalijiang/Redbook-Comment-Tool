@@ -2,11 +2,9 @@
   "name": "slidev",
   "type": "module",
   "private": true,
-  "scripts": {
-    "build": "slidev build",
-    "dev": "slidev --open",
-    "export": "slidev export"
-  },
+"scripts": {
+  "build": "slidev build --base ./ --out dist"
+},
   "dependencies": {
     "@slidev/cli": "^52.14.2",
     "@slidev/theme-default": "latest",
